@@ -10,8 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color:blueviolet; */
-    animation: changeBg 10s linear infinite;
+    animation: changeBg 20s linear infinite;
 }
 @keyframes changeBg{
     0%{
