@@ -5,18 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Sorting Visualizer</title>
 </head>
 <body>
-
-    <div class="puzzle">
-        <div class="container"></div>
-        <div class="wrong"></div>
-        <button>SUBMIT</button>
-        <div class="answer none"></div>
+    <h1 class="title">Sorting Algorithm Visualizer</h1>
+    
+    <div class="container">
+        <button class = "generateNewArray hover">New Array</button>
+        <div class="slidecontainer">
+            <input type="range" min="5" max="100" value="10" class="slider" id="arraySize">
+            <input type="range" min="0" max="1200" value="50" class="slider" id="speed">
+          </div>
+        <div class="sortingAlgos">
+            <button class = "hover" id="BubbleSort">Bubble Sort</button>
+            <button class = "hover" id="SelectionSort">Selection Sort</button>
+            <button class = "hover" id="InsertionSort">Insertion Sort</button>
+            <button class = "hover" id="MergeSort">Merge Sort</button>
+            <button class = "hover" id="QuickSort">Quick Sort</button>
+        </div>
     </div>
 
-    <script src="script.js"></script>
+    <div class="showArea">
+    </div>
 
+    <marquee direction="left">THIS PROJECT IS UNDER DEVELOPEMENT</marquee>
+    <script type = "module" src="scripts/main.js"></script>
 </body>
 </html>
+
