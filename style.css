@@ -131,6 +131,14 @@ textarea{
     background-color: #06bbff;
 }
 
+#verticalDrag:hover{
+    background-color: #06bbff;
+}
+
+#verticalDrag:active{
+    background-color: #06bbff;
+}
+
 #leftdragbar:active{
     background-color: #06bbff;
 }
