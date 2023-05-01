@@ -5,15 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Code Editor</title>
+    <title>CodeIt: Online Code Editor</title>
 </head>
 <body>
     <header>
-        <h1>Code Editor</h1>
-        <div class="options">
-            <ul></ul>
-        </div>
+      
+        <nav >
+         <ul>
+            <li><a href="#"><strong>Home</strong></a></li>
+            <li><a href="#"><strong>Home</strong></a></li>
+            <li><a href="#"><strong>Home</strong></a></li>
+            <li><a href="#"><strong>Home</strong></a></li>
+         </ul>
+      </nav>
+         
+    
     </header>
+    
     <div id="editor" onmouseup="EndDrag()" onmousemove="verticalDrag(event)">
         <div id="codeArea" onmouseup="EndDrag()" onmousemove="OnDrag(event)">
             <div  id="leftcol"><textarea placeholder="Write your HTML here" id="html" spellcheck="false"></textarea></div>
@@ -27,8 +35,13 @@
                 <iframe scrolling="yes" id="output"></iframe>
         </div>
     </div>
+    <footer>
+		<p>&copy; 2023 My Website</p>
+	</footer>
     <script src="handler.js"></script>
     <script src="script.js"></script>
 
 </body>
 </html>
+
+
